@@ -9,8 +9,12 @@ body {
     margin: 10px;
 }
 
-h1 {
+h1, h2 {
     font-weight: 700;
+}
+
+.subtitulos {
+    color: #7d97ad;
 }
 
 hr {
@@ -25,16 +29,40 @@ hr {
 }
 
 #logo {
-    width: 20%;
     order: 1;
+    width: 20%;
 }
 #logo > img {
     margin-top: 22px;
     max-width: 60px;
 }
 
-#title {
+#titulo {
+    order: 2;
     text-align: right;
     width: 80%;
-    order: 2;
+}
+
+#foto-principal {
+    order: 3;
+}
+
+#sobre {
+    order: 4;
+}
+
+#redes-sociais ul{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+#redes-sociais ul li {
+    list-style-type: none;
+    padding-right: 10px;
+    font-size: 60px;
+}
+
+li:last-child {
+    padding-right: 0 !important;
 }

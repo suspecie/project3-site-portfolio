@@ -6,6 +6,8 @@
    <title>Site de Portfólio</title>
    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet">
    <link href="https://necolas.github.io/normalize.css/latest/normalize.css" rel="stylesheet">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/brands.css" integrity="sha384-n9+6/aSqa9lBidZMRCQHTHKJscPq6NW4pCQBiMmHdUCvPN8ZOg2zJJTkC7WIezWv" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/fontawesome.css" integrity="sha384-vd1e11sR28tEK9YANUtpIOdjGW14pS87bUBuOIoBILVWLFnS+MCX9T6MMf0VdPGq" crossorigin="anonymous">
    <link href="css/style.css" rel="stylesheet">
    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -16,39 +18,42 @@
          <div id="logo">
             <img src="imagens/Elephant.svg" alt="Logotipo do Blog da Suellyn.">
          </div>
-         <div id="title">
+         <div id="titulo">
             <h1>Suellyn Specie</h1>
             <h4>Front-end Developer</h4>
          </div>
       </header>
       <hr>
-      <section>
-         <img src="imagens/eu.jpg" alt="Uma foto da Suellyn segurando um computador.">
-         <h2>Quem sou?</h2>
-         <p>Dev PHP , Front-end e aprendiz de Design. apaixonada por cabelo colorido, livros, fotos, artes, música e
-            o mundo geek.
-         </p>
-         <h3>Redes Sociais</h3>
-         <ul>
-            <li>
-               <a href="https://twitter.com/suspecie">
-                  Twitter
-               </a>
-            </li>
-            <li>
-               <a href="https://github.com/suspecie">
-                  Github
-               </a>
-            </li>
-            <li>
-               <a href="https://codetheelephant.com">
-                  Blog
-               </a>
-            </li>
-         </ul>
+      <section class="container">
+         <img id="foto-principal" src="imagens/eu_356.jpg" alt="Uma foto da Suellyn segurando um computador.">
+         <div id="sobre">
+            <h2 class="subtitulos">Quem sou?</h2>
+            <p>Dev PHP , Front-end e aprendiz de Design. apaixonada por cabelo colorido, livros, fotos, artes, música e
+               o mundo geek.
+            </p>
+            <div id="redes-sociais">
+               <ul>
+                  <li>
+                     <a href="https://twitter.com/suspecie" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="https://github.com/suspecie" target="_blank">
+                        <i class="fab fa-github"></i>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="https://codetheelephant.com" target="_blank">
+                        <i class="fab fa-wordpress-simple"></i>
+                     </a>
+                  </li>
+               </ul>
+            </div>
+         </div>
       </section>
       <section>
-         <h2>Trabalhos recentes</h2>
+         <h2 class="subtitulos">Trabalhos recentes</h2>
          <ul>
             <li>
                <img src="imagens/projeto1.jpeg"
