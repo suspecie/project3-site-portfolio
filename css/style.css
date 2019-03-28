@@ -1,13 +1,40 @@
 * {
     font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    box-sizing: border-box;
+    color: #2d3c49;
 }
 
 body {
-    display: flex;
-    flex-wrap: wrap;
     margin: 10px;
 }
 
+h1 {
+    font-weight: 700;
+}
+
+hr {
+    box-shadow: 0 0 0 6px #7d97ad inset;
+    height: 3px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 #logo {
-    max-width: 50px;
+    width: 20%;
+    order: 1;
+}
+#logo > img {
+    margin-top: 22px;
+    max-width: 60px;
+}
+
+#title {
+    text-align: right;
+    width: 80%;
+    order: 2;
 }
