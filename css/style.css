@@ -5,6 +5,10 @@
     color: #2d3c49;
 }
 
+img {
+    max-width: 100%;
+}
+
 body {
     margin: 10px;
 }
@@ -45,7 +49,10 @@ hr {
 
 #foto-principal {
     order: 3;
+    text-align: center;
+    width: 100%;
 }
+
 
 #sobre {
     order: 4;
