@@ -59,10 +59,44 @@ hr {
 
 #redes-sociais ul li {
     list-style-type: none;
-    padding-right: 10px;
+    padding-right: 40px;
     font-size: 60px;
 }
 
 li:last-child {
     padding-right: 0 !important;
+}
+
+#trabalhos-recentes {
+    list-style-type: none;
+    padding: 0;
+}
+
+#trabalhos-recentes > li {
+    margin-top: 40px;
+    text-align: center;
+}
+
+#trabalhos-recentes > li:first-child {
+    margin-top: 0;
+}
+
+#projeto-um {
+    order: 5;
+}
+
+#projeto-dois {
+    order: 6;
+}
+
+#projeto-tres {
+    order: 7;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+.links-projetos {
+    font-size: 0.75em;
 }
