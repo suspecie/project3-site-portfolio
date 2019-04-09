@@ -10,3 +10,21 @@ Projeto 3 - Site de Portfólio
 ## Versão web
 
 ![alt text](udacityFeedback/web.png)
+
+
+# Revisão Udacity
+
+## Minhas dúvidas
+
+![alt text](udacityFeedback/minhasduvidas.png)
+
+## Revisão 
+
+![alt text](udacityFeedback/revisao-udacity.png)
+
+## Code Review
+
+![alt text](udacityFeedback/codereview1.png)
+
+![alt text](udacityFeedback/codereview2.png)
+
